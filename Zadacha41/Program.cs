@@ -6,7 +6,7 @@
 
 int[] EnterNumber(int[] count)
 {   
-    if (count[0] == 0) Console.WriteLine("Начинаем нашу программу для счета нулей. Введите любое количесто чисел подряд.");
+    if (count[0] == 0) Console.WriteLine("Начинаем нашу программу для счета нулей. Введите любое количество чисел подряд.");
     else Console.WriteLine($"Вы ввели {count[0]} чисел, из них было введено {count[1]} нулей");
     Console.Write("Введите число (для выхода введите q) ");
     string enterString = Console.ReadLine();
